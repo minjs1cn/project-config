@@ -6,11 +6,12 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "lint": "echo 'linting...'"
+    "lint": "eslint src --ext .js"
   },
   "devDependencies": {
     "eslint": "^8.14.0",
     "eslint-config-jammy": "^0.0.5",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1"
   }
 }
