@@ -9,6 +9,8 @@
     "lint": "eslint src --ext .js"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^16.2.4",
+    "commitlint": "^16.2.4",
     "eslint": "^8.14.0",
     "eslint-config-jammy": "^0.0.5",
     "husky": "^7.0.4",
