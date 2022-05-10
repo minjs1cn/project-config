@@ -6,8 +6,10 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint src --ext .js",
-    "release": "standard-version"
+    "lint": "npm run eslint && npm run stylelint",
+    "release": "standard-version",
+    "eslint": "eslint src --ext .js",
+    "stylelint": "stylelint src/**/*.{css,less,scss} --fix"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^16.2.4",
@@ -16,6 +18,8 @@
     "eslint-config-jammy": "^0.0.5",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.1",
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.4",
     "standard-version": "^9.3.2",
     "stylelint": "^14.8.2",
     "stylelint-config-recess-order": "^3.0.0",
