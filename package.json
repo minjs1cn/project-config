@@ -15,7 +15,7 @@
     "@commitlint/config-conventional": "^16.2.4",
     "commitlint": "^16.2.4",
     "eslint": "^8.14.0",
-    "eslint-config-jammy": "^0.0.5",
+    "eslint-config-jammy": "^0.0.9",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.1",
     "postcss-less": "^6.0.0",
